@@ -1,5 +1,9 @@
 com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.class
-com/microservices/demo/twitter/to/kafka/service/config/TwitterToKafkaServiceConfigData.class
+com/microservices/demo/twitter/to/kafka/service/init/StreamInitializer.class
+com/microservices/demo/twitter/to/kafka/service/runner/impl/MockKafkaStreamRunner.class
+com/microservices/demo/twitter/to/kafka/service/transformer/TwitterStatusToAvroTransformer.class
+com/microservices/demo/twitter/to/kafka/service/exception/TwitterToKafkaServiceException.class
 com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class
+com/microservices/demo/twitter/to/kafka/service/init/impl/KafkaStreamInitializer.class
 com/microservices/demo/twitter/to/kafka/service/listener/TwitterKafkaStatusListener.class
 com/microservices/demo/twitter/to/kafka/service/runner/StreamRunner.class
